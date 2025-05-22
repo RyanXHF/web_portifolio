@@ -1,18 +1,14 @@
-# Projeto Página Web - Portifólio e Currículo
+# 🌐 Projeto Página Web – Portfólio e Currículo
 
-## Sobre
+## 📄 Sobre o Projeto
+Este é um projeto de página web desenvolvido com HTML e CSS, com o objetivo de estudar e praticar os conhecimentos adquiridos.
 
-Esse é um projeto de página web utilizando HTML e CSS. 
+A página serve como um portfólio, apresentando um resumo e menu de navegação para o usuário, incluindo uma seção para um currículo online, contendo as habilidades e contatos profissionais.
 
-Trata-se de uma página de portifólio onde ....
+## 🔗 Acesso ao Projeto
+Você pode acessar a página hospedada na Vercel através do link abaixo:
 
-## Acesso a Página
+[👉 Acesso ao Portfólio](https://web-portifolio-eo94jc582-ryan-henriques-projects.vercel.app)
 
-Vercel
-
-web-portifolio-eo94jc582-ryan-henriques-projects.vercel.app
-
-
-### Autor
-
+## 👨‍💻 Autor
 Ryan Henrique Xavier Ferreira
