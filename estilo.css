@@ -47,16 +47,16 @@ body {
 }
 
 .conteudo__esquerda_titulo{
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .conteudo__esquerda_texto{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Krona One", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -95,9 +95,23 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+
 }
 
+
+
 /* Curriculo */
+
+.conteudo_curriculo {
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    margin: 10% 10%;
+    gap: 80px;
+    
+}
 
 .container{
 
@@ -123,7 +137,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 80px;
 
 }
 
@@ -140,11 +154,13 @@ body {
 
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
-    font-weight: 100;
-    font-style: normal;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
 
 }
 
@@ -156,7 +172,6 @@ body {
     align-items: center;
     border-radius: 50%;
     gap: 30px;
-    
 
 }
 
@@ -164,8 +179,17 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.cima_direita_nome {
+
+    font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
 
 }
 
@@ -173,19 +197,11 @@ body {
 
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
-    font-weight: 100;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: justify;
     justify-content: center;
-    gap: 40px;
-
-}
-
-.cima_direita_descrição_nome {
-    
-    font-size: 2rem;
-    font-weight: 100;  
-    font-style: normal;
 
 }
 
@@ -196,7 +212,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    align-self: center;
+    gap: 15px;
 
 }
 
@@ -206,21 +223,21 @@ body {
     border-radius: 50%;
 
 }
-/*
-.cima_direita_local_texto {
 
+.cima_direita_local_texto{
 
+    font-size: 1.25rem;
+    font-weight: 100;
+    font-style: normal;
 
 }
-
-*/
 
 .baixo {
 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 110px;
+    gap: 150px;
 
 }
 
@@ -228,45 +245,35 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
     gap: 40px;
 
 }
 
-/*
-.baixo_esquerda_habilidades {
-
-
-
-}
-
-.baixo_esquerda_linguas {
-
-}
-*/
-
-/*
-.baixo_direita {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-
-}
-*/
 
 .baixo_esquerda_habilidades {
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 20px;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 100; 
+    gap: 40px;
+
+}
+
+.baixo_esquerda_habilidades_titulo {
+
+    font-size: 1.5rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
+
+}
+
+.baixo_esquerda_habilidades_texto {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: justify;
 
 }
 
@@ -274,25 +281,79 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     gap: 40px;
 
 }
 
 .baixo_direita_experiencias{
 
-    font-style: normal;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
 
 }
 
-.baixo_direita_formação{
+.baixo_direita_experiencias_titulo{
 
-    font-style: normal;
-    gap: 20px;
+    font-size: 2rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
 
 }
+
+.baixo_direita_experiencias_subtitulo{
+
+    font-size: 1.5rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+
+}
+
+.baixo_direita_experiencias_texto{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.baixo_direita_formacao{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.baixo_direita_formacao_titulo{
+
+    font-size: 2rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
+
+}
+
+.baixo_direita_formacao_subtitulo{
+
+    font-size: 1.5rem;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+
+}
+
+.baixo_direita_formacao_texto{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
 
 
 /* mobile */
@@ -314,6 +375,26 @@ body {
 
 .conteudo_direita{
     width: auto;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.cima{
+
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+
+}
+
+.baixo{
+    
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+
 }
 
 }
