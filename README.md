@@ -8,7 +8,7 @@ A página serve como um portfólio, apresentando um resumo e menu de navegação
 ## 🔗 Acesso ao Projeto
 Você pode acessar a página hospedada na Vercel através do link abaixo:
 
-[👉 Acesso ao Portfólio](https://web-portifolio-eo94jc582-ryan-henriques-projects.vercel.app)
+[👉 Acesso ao Portfólio](https://web-portifolio-vert.vercel.app)
 
 ## 👨‍💻 Autor
 Ryan Henrique Xavier Ferreira
